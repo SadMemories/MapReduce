@@ -1,0 +1,12 @@
+*** Starting wc test.
+unexpected EOF
+--- wc output is not the same as mr-correct-wc.txt
+--- wc test: FAIL
+*** Starting indexer test.
+unexpected EOF
+unexpected EOF
+--- indexer output is not the same as mr-correct-indexer.txt
+--- indexer test: FAIL
+*** Starting map parallelism test.
+read unix @->/var/tmp/5840-mr-1000: read: connection reset by peer
+unexpected EOF
